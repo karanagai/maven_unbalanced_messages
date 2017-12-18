@@ -115,7 +115,7 @@ public class PersonTest {
 
 
     @Test
-    public void TestBlock4() {
+    public void TestBlock5() {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
