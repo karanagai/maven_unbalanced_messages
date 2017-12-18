@@ -41,6 +41,37 @@ public class PersonTest {
 
     @Test
     public void TestBlock() {
+
+        System.out.println("##teamcity[blockOpened name='<Login>']");
+
+        System.out.println("Login with User: Administrator");
+        System.out.println("Logged in as: Name: 'test'");
+        System.out.println("##teamcity[blockClosed name='<Login>']");
+
+        System.out.println("##teamcity[blockOpened name='<CancelReviewInProgressIfAny>']");
+
+        System.out.println("##teamcity[blockClosed name='<CancelReviewInProgressIfAny>']");
+
+        System.out.println("##teamcity[blockOpened name='<CreateConnection>']");
+
+        System.out.println("Logged in as: Name: 'test'");
+        System.out.println("##teamcity[blockClosed name='<CreateConnection>']");
+
+        System.out.println("##teamcity[blockClosed name='<UserRolesTests.CreateAndDeleteUser>']");
+
+        System.out.println("##teamcity[blockOpened name='<UserRolesTests.CreateAndDeleteUserRole>']");
+
+        System.out.println("##teamcity[blockOpened name='<Login>']");
+
+        System.out.println("Login with User: test");
+        System.out.println("Logged in as: Name: 'administrator'");
+        System.out.println("##teamcity[blockClosed name='<Login>']");
+
+        System.out.println("##teamcity[blockOpened name='<CreateNewUserRole>']");
+
+        System.out.println("##teamcity[blockClosed name='<CreateNewUserRole>']");
+
+
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
