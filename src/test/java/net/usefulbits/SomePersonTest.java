@@ -200,6 +200,11 @@ public class SomePersonTest {
         assertTrue(true);
     }
 
+    @Test
+    public void SecondFailingTest(){
+        assertTrue(false);
+    }
+
     // @Test
     // @Ignore("ignore test with short name")
     // public void shortTestNameÄÜ(){
