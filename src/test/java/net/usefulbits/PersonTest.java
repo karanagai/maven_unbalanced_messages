@@ -14,6 +14,8 @@ public class PersonTest {
         } catch (InterruptedException ie){
 
         }
+        System.out.println("##teamcity[blockClosed name='some_block']");
+
 
         System.out.println("abcdefghijk");
         System.err.println("abcdefghijk");
