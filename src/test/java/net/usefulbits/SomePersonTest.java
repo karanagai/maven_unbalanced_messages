@@ -213,9 +213,9 @@ public class SomePersonTest {
     //     assertFalse (true);
     // }
 
-    @Test
-    @Ignore("ignore test with simple name")
-    public void shuldBeIgnored(){
-        assertTrue(false);
-    }
+    // @Test
+    // @Ignore("ignore test with simple name")
+    // public void shuldBeIgnored(){
+    //     assertTrue(false);
+    // }
 }
