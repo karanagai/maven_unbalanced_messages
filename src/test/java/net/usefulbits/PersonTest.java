@@ -198,6 +198,13 @@ public class PersonTest {
     public void TESTßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß(){
         assertFalse(true);
     }
+    
+    @Test
+    public void OneMoreTest(){
+        System.out.println("##teamcity[blockOpened name='some_block']");
+        
+        assertTrue(true);
+    }
 
     @Test
     @Ignore("ignore test with short name")
