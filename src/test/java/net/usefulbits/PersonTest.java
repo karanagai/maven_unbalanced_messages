@@ -219,4 +219,11 @@ public class PersonTest {
     public void shuldBeIgnored(){
         assertTrue(false);
     }
+    
+   
+    @Test
+    @Ignore("ignore test with simple name")
+    public void shouldBeIgnored2(){
+        assertTrue(false);
+    }
 }
