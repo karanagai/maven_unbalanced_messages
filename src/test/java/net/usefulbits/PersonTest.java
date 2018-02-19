@@ -18,7 +18,7 @@ public class PersonTest {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
-
+            System.out.println("Something went wrong");
         }
         System.out.println("##teamcity[blockClosed name='some_block']");
 
@@ -75,7 +75,7 @@ public class PersonTest {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
-
+            System.out.println("Something went wrong");
         }
         System.out.println("##teamcity[blockClosed name='some_block']");
 
@@ -102,7 +102,7 @@ public class PersonTest {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
-
+            System.out.println("Something went wrong");
         }
         System.out.println("##teamcity[blockClosed name='some_block']");
 
@@ -129,7 +129,7 @@ public class PersonTest {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
-
+            System.out.println("Something went wrong");
         }
         System.out.println("##teamcity[blockClosed name='some_block']");
 
@@ -156,7 +156,7 @@ public class PersonTest {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
-
+            System.out.println("Something went wrong");
         }
         System.out.println("##teamcity[blockClosed name='some_block']");
 
