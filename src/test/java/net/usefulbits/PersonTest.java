@@ -96,7 +96,6 @@ public class PersonTest {
         System.out.println("##teamcity[blockClosed name='some_block_3']");
     }
 
-
     @Test
     public void TestDifferentLogic() {
         try{
@@ -123,7 +122,6 @@ public class PersonTest {
         System.out.println("##teamcity[blockClosed name='some_block_3']");
     }
 
-
     @Test
     public void TestCalculator() {
         try{
@@ -149,7 +147,6 @@ public class PersonTest {
         assertEquals("Age not saved correctly 123456", 22, 22);
         System.out.println("##teamcity[blockClosed name='some_block_3']");
     }
-
 
     @Test
     public void TestBackup() {
