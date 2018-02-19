@@ -22,11 +22,11 @@ public class SomePersonTest {
         System.out.println("##teamcity[blockClosed name='some_block']");
 
 
-        System.out.println("abcdefghijk");
-        System.err.println("abcdefghijk");
+        System.out.println("word");
+        System.err.println("word");
 
-        System.out.println("http://user:abcdefghijk@jetbrains.com");
-        System.err.println("http://user:abcdefghijk@jetbrains.com");
+        System.out.println("http://user:word@jetbrains.com");
+        System.err.println("http://user:word@jetbrains.com");
 
         System.out.println("##teamcity[blockOpened name='some_block_2']");
 
@@ -79,11 +79,11 @@ public class SomePersonTest {
     //     System.out.println("##teamcity[blockClosed name='some_block']");
 
 
-    //     System.out.println("abcdefghijk");
-    //     System.err.println("abcdefghijk");
+    //     System.out.println("word");
+    //     System.err.println("word");
 
-    //     System.out.println("http://user:abcdefghijk@jetbrains.com");
-    //     System.err.println("http://user:abcdefghijk@jetbrains.com");
+    //     System.out.println("http://user:word@jetbrains.com");
+    //     System.err.println("http://user:word@jetbrains.com");
 
     //     System.out.println("##teamcity[blockOpened name='some_block_2']");
 
@@ -106,11 +106,11 @@ public class SomePersonTest {
     //     System.out.println("##teamcity[blockClosed name='some_block']");
 
 
-    //     System.out.println("abcdefghijk");
-    //     System.err.println("abcdefghijk");
+    //     System.out.println("word");
+    //     System.err.println("word");
 
-    //     System.out.println("http://user:abcdefghijk@jetbrains.com");
-    //     System.err.println("http://user:abcdefghijk@jetbrains.com");
+    //     System.out.println("http://user:word@jetbrains.com");
+    //     System.err.println("http://user:word@jetbrains.com");
 
     //     System.out.println("##teamcity[blockOpened name='some_block_2']");
 
@@ -133,11 +133,11 @@ public class SomePersonTest {
     //     System.out.println("##teamcity[blockClosed name='some_block']");
 
 
-    //     System.out.println("abcdefghijk");
-    //     System.err.println("abcdefghijk");
+    //     System.out.println("word");
+    //     System.err.println("word");
 
-    //     System.out.println("http://user:abcdefghijk@jetbrains.com");
-    //     System.err.println("http://user:abcdefghijk@jetbrains.com");
+    //     System.out.println("http://user:word@jetbrains.com");
+    //     System.err.println("http://user:word@jetbrains.com");
 
     //     System.out.println("##teamcity[blockOpened name='some_block_2']");
 
@@ -160,11 +160,11 @@ public class SomePersonTest {
     //     System.out.println("##teamcity[blockClosed name='some_block']");
 
 
-    //     System.out.println("abcdefghijk");
-    //     System.err.println("abcdefghijk");
+    //     System.out.println("word");
+    //     System.err.println("word");
 
-    //     System.out.println("http://user:abcdefghijk@jetbrains.com");
-    //     System.err.println("http://user:abcdefghijk@jetbrains.com");
+    //     System.out.println("http://user:word@jetbrains.com");
+    //     System.err.println("http://user:word@jetbrains.com");
 
     //     System.out.println("##teamcity[blockOpened name='some_block_2']");
 
