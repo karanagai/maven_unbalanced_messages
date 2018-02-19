@@ -131,13 +131,6 @@ public class PersonTest {
         }
         System.out.println("##teamcity[blockClosed name='some_block']");
 
-
-        System.out.println("word");
-        System.err.println("word");
-
-        System.out.println("http://user:word@jetbrains.com");
-        System.err.println("http://user:word@jetbrains.com");
-
         System.out.println("##teamcity[blockOpened name='some_block_2']");
 
 
@@ -150,22 +143,7 @@ public class PersonTest {
 
     @Test
     public void TestBackup() {
-        try{
-            Thread.sleep(10000);
-        } catch (InterruptedException ie){
-            System.out.println("Something went wrong");
-        }
-        System.out.println("##teamcity[blockClosed name='some_block']");
-
-
-        System.out.println("word");
-        System.err.println("word");
-
-        System.out.println("http://user:word@jetbrains.com");
-        System.err.println("http://user:word@jetbrains.com");
-
         System.out.println("##teamcity[blockOpened name='some_block_2']");
-
 
         assertEquals(2, 2);
 
