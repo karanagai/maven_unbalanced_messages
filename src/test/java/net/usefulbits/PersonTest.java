@@ -98,7 +98,7 @@ public class PersonTest {
 
 
     @Test
-    public void TestBlock2() {
+    public void TestDifferentLogic) {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
@@ -125,7 +125,7 @@ public class PersonTest {
 
 
     @Test
-    public void TestBlock4() {
+    public void TestCalculator() {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
@@ -152,7 +152,7 @@ public class PersonTest {
 
 
     @Test
-    public void TestBlock5() {
+    public void TestBackup() {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
