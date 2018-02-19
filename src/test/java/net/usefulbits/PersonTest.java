@@ -98,7 +98,7 @@ public class PersonTest {
 
 
     @Test
-    public void TestDifferentLogic) {
+    public void TestDifferentLogic() {
         try{
             Thread.sleep(10000);
         } catch (InterruptedException ie){
