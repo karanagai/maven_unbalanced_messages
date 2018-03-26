@@ -66,6 +66,7 @@
 						</goals>
 					</execution>
 				</executions>
+				
 				<configuration>
 					<serverId>nexus</serverId>
 					<nexusUrl>http://nexus-test.labs.intellij.net:8081/repository/maven-snapshots/</nexusUrl>
