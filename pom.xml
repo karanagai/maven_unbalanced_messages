@@ -12,6 +12,7 @@
 	<name>mvn2-spring-open</name>
 
 	<dependencies>
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
