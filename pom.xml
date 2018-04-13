@@ -28,8 +28,7 @@
 		
 		<testResources>
 			<testResource>
-				<directory>${project.basedir}/src/test/resources
-				</directory>
+				<directory>${project.basedir}/src/test/resources</directory>
 				<filtering>true</filtering>
 			</testResource>
 		</testResources>
