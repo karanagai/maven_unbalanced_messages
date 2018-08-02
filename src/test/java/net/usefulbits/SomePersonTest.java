@@ -51,10 +51,6 @@ public class SomePersonTest {
     //     assertEquals("Deleting person failed.", 0, 1);
     // }
 
-    // @Test
-    // public void TestAnotherFunction(){
-    //     assertTrue(true);
-    // }
 
     @Test
     public void SecondFailingTest(){
