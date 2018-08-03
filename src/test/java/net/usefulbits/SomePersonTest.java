@@ -5,11 +5,6 @@ import org.junit.Test;
 
 public class SomePersonTest {
 
-
-
-
-
-
     @Test
     public void SecondFailingTest(){
         assertTrue(false);
