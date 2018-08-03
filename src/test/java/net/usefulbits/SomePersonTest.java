@@ -36,12 +36,6 @@ public class SomePersonTest {
 
 
 
-    //     assertEquals(2, 2);
-
-    //     assertEquals("Name not saved correctly", "David", "David");
-    //     assertEquals("Age not saved correctly 123456", 22, 22);
-    //     System.out.println("##teamcity[blockClosed name='some_block_3']");
-    // }
 
     // @Test
     // @Ignore("long name Ä")
