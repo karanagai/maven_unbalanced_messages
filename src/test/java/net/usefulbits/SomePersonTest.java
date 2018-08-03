@@ -6,13 +6,6 @@ import org.junit.Test;
 public class SomePersonTest {
 
     @Test
-    public void SecondFailingTest(){
-        assertTrue(false);
-    }
-
-    
-
-    @Test
     public void Test4() {
         System.out.println("##teamcity[blockOpened name='<CreateConnection>']");
         System.out.println("Some output");
