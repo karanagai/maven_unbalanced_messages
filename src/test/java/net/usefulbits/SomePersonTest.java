@@ -37,14 +37,6 @@ public class SomePersonTest {
 
 
 
-    // @Test
-    // @Ignore("long name Ä")
-    // public void TestSomeFunction() {
-    //     System.out.println("##teamcity[blockClosed name='some_block']");
-
-    //     assertEquals("Deleting person failed.", 0, 1);
-    // }
-
 
     @Test
     public void SecondFailingTest(){
