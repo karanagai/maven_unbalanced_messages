@@ -21,15 +21,13 @@
 	<build>
 		<resources>
 			<resource>
-				<directory>${project.basedir}/src/main/resources
-				</directory>
+				<directory>${project.basedir}/src/main/resources</directory>
 				<filtering>true</filtering>
 			</resource>
 		</resources>
 		<testResources>
 			<testResource>
-				<directory>${project.basedir}/src/test/resources
-				</directory>
+				<directory>${project.basedir}/src/test/resources</directory>
 				<filtering>true</filtering>
 			</testResource>
 		</testResources>
@@ -86,8 +84,10 @@
 			<url>http://nexus-test.labs.intellij.net:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.custom.property>${teamcity.parameter}</project.custom.property>
 	</properties>
 	
 </project>
