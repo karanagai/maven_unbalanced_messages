@@ -41,7 +41,6 @@ object RunTests : BuildType({
     steps {
         script {
             name = "hello world"
-            enabled = false
             scriptContent = "echo hello world"
         }
         maven {
