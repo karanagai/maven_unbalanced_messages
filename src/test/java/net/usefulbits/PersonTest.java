@@ -191,7 +191,7 @@ public class PersonTest {
     }
 
     @Test
-    @Ignore("ignore test with simple name")
+    //@Ignore("ignore test with simple name")
     public void shouldBeIgnored(){
         assertTrue(false);
     }
