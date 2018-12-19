@@ -159,7 +159,7 @@ public class PersonTest {
         System.out.println("##teamcity[blockOpened name='some_block']");
 
         assertEquals("David", "David");
-        assertEquals(28, 29);
+        assertEquals(28, 28);
     }
 
     @Test
