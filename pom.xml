@@ -15,7 +15,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<resources>
 			<resource>
@@ -24,7 +23,6 @@
 				<filtering>true</filtering>
 			</resource>
 		</resources>
-		
 		<testResources>
 			<testResource>
 				<directory>${project.basedir}/src/test/resources
