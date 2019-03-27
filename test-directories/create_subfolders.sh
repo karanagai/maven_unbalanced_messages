@@ -10,7 +10,9 @@ do
 SUBDIRECTORY_NAME=subdirectory$j
 echo "CREATING SUBDIRECTORY $SUBDIRECTORY_NAME"
 mkdir $SUBDIRECTORY_NAME
+cd $SUBDIRECTORY_NAME
 touch file$j.txt
+cd ..
 done
 cd ..
 done
