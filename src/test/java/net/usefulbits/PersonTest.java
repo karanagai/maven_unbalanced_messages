@@ -2,6 +2,7 @@ package net.usefulbits;
 
 import org.junit.Ignore;
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class PersonTest {
