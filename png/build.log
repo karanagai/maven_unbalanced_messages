@@ -1,0 +1,45 @@
+Build 'Meta runner / meta-runner, set and echo build parameter' #2
+Triggered 2019-08-05 14:37:22 by 'Admin (admin)'
+Started 2019-08-05 14:37:22 on 'Mac OS Agent'
+Finished 2019-08-05 14:37:26 with status NORMAL 'Success'
+TeamCity URL http://tcqa-branch.labs.intellij.net:8111/viewLog.html?buildId=45207&buildTypeId=MetaRunner_MetaRunnerSetAndEchoBuildParameter 
+TeamCity server version is 2019.1.3 EAP (build 66355), server timezone: EEST (UTC+03:00)
+
+[14:37:22] : bt4791 (3s)
+[14:37:22]i: TeamCity server version is 2019.1.3 EAP (build 66355)
+[14:37:22] : The build is removed from the queue to be prepared for the start
+[14:37:22] : Starting the build on the agent "Mac OS Agent"
+[14:37:22]i: Agent time zone: Europe/Berlin
+[14:37:22]i: Agent is running under JRE: 11+28
+[14:37:22] : Updating tools for build
+[14:37:22] :	 [Updating tools for build] Tools are not required for the build
+[14:37:23] : Clearing temporary directory: /Users/nburnasheva/teamcity_agents/build agent branch/temp/buildTmp
+[14:37:23] : Publishing internal artifacts
+[14:37:23] :	 [Publishing internal artifacts] Publishing 1 file using [ArtifactsCachePublisher]
+[14:37:23] :	 [Publishing internal artifacts] Publishing 1 file using [WebPublisher]
+[14:37:23] : Will perform clean checkout. Reason: Checkout directory is empty or doesn't exist
+[14:37:23] : Checkout directory: /Users/nburnasheva/teamcity_agents/build agent branch/work/9789f6e45a0b9804
+[14:37:23] : Build preparation done
+[14:37:23] : Step 1/2: call meta-runner (set and echo build parameter value (command line))
+[14:37:23] :	 [Step 1/2] Step 1/2: Command Line
+[14:37:23]i:		 [Step 1/2] Content of /Users/nburnasheva/teamcity_agents/build agent branch/temp/agentTmp/custom_script8655956368047745174 file: echo "##teamcity[setParameter name='some.parameter' value='fff']"
+[14:37:23] :		 [Step 1/2] Starting: /Users/nburnasheva/teamcity_agents/build agent branch/temp/agentTmp/custom_script8655956368047745174
+[14:37:23] :		 [Step 1/2] in directory: /Users/nburnasheva/teamcity_agents/build agent branch/work/9789f6e45a0b9804
+[14:37:23]i:		 [Step 1/2] ##teamcity[setParameter name='some.parameter' value='fff']
+[14:37:23] :		 [Step 1/2] Process exited with code 0
+[14:37:23] :	 [Step 1/2] Step 2/2: Command Line
+[14:37:23]i:		 [Step 2/2] Content of /Users/nburnasheva/teamcity_agents/build agent branch/temp/agentTmp/custom_script14295647656352404604 file: echo some.parameter value = 
+[14:37:23] :		 [Step 2/2] Starting: /Users/nburnasheva/teamcity_agents/build agent branch/temp/agentTmp/custom_script14295647656352404604
+[14:37:23] :		 [Step 2/2] in directory: /Users/nburnasheva/teamcity_agents/build agent branch/work/9789f6e45a0b9804
+[14:37:23] :		 [Step 2/2] some.parameter value =
+[14:37:23] :		 [Step 2/2] Process exited with code 0
+[14:37:23] : Step 2/2: parameter value in the next step (Command Line)
+[14:37:24]i:	 [Step 2/2] Content of /Users/nburnasheva/teamcity_agents/build agent branch/temp/agentTmp/custom_script15240691091856724436 file: echo some.parameter value in the next step = fff
+[14:37:24] :	 [Step 2/2] Starting: /Users/nburnasheva/teamcity_agents/build agent branch/temp/agentTmp/custom_script15240691091856724436
+[14:37:24] :	 [Step 2/2] in directory: /Users/nburnasheva/teamcity_agents/build agent branch/work/9789f6e45a0b9804
+[14:37:24] :	 [Step 2/2] some.parameter value in the next step = fff
+[14:37:24] :	 [Step 2/2] Process exited with code 0
+[14:37:24] : Publishing internal artifacts (1s)
+[14:37:25] :	 [Publishing internal artifacts] Publishing 1 file using [ArtifactsCachePublisher]
+[14:37:25] :	 [Publishing internal artifacts] Publishing 1 file using [WebPublisher]
+[14:37:26] : Build finished
