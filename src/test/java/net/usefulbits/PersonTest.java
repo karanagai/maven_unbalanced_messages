@@ -176,7 +176,7 @@ public class PersonTest {
     
     @Test
     public void OneMoreTest(){
-        System.out.println("##teamcity[blockOpened name='some_block']");
+        System.out.println("##teamcity[blockOpened name='some_block!']");
         
         assertTrue(true);
     }
