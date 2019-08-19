@@ -19,7 +19,7 @@
 
 	<build>
 		<resources>
-			<resource>4.8.1
+			<resource>4.8.1</resource>
 				<directory>${project.basedir}/src/main/resources</directory>
 				<filtering>true</filtering>
 			</resource>
@@ -27,8 +27,7 @@
 		
 		<testResources>
 			<testResource>
-				<directory>${project.basedir}/src/test/resources
-				</directory>
+				<directory>${project.basedir}/src/test/resources</directory>
 				<filtering>true</filtering>
 			</testResource>
 		</testResources>
