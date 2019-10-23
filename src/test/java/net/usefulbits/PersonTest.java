@@ -23,7 +23,7 @@ public class PersonTest {
         System.out.println("##teamcity[blockClosed name='some_block']");
 
 
-        System.out.println("word");
+        System.out.println("word word");
         System.err.println("word");
 
         System.out.println("http://user:word@jetbrains.com");
