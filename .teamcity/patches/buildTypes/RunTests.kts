@@ -1,6 +1,10 @@
 package patches.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2018_1.*
+import jetbrains.buildServer.configs.kotlin.v2018_1.buildSteps.MavenBuildStep
+import jetbrains.buildServer.configs.kotlin.v2018_1.buildSteps.ScriptBuildStep
+import jetbrains.buildServer.configs.kotlin.v2018_1.buildSteps.maven
+import jetbrains.buildServer.configs.kotlin.v2018_1.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.v2018_1.ui.*
 
 /*
@@ -13,4 +17,31 @@ changeBuildType(RelativeId("RunTests")) {
         "Unexpected paused: '$paused'"
     }
     paused = true
+
+    expectSteps {
+        script {
+            name = "hello world"
+            enabled = false
+            scriptContent = "echo hello world"
+        }
+        maven {
+            goals = "clean test"
+            runnerArgs = "-Dmaven.test.failure.ignore=true"
+            localRepoScope = MavenBuildStep.RepositoryScope.MAVEN_DEFAULT
+            param("maven.path", "%teamcity.tool.maven.DEFAULT%")
+        }
+    }
+    steps {
+        update<ScriptBuildStep>(0) {
+            param("teamcity.runAs.windowsIntegrityLlevel", "auto")
+            param("teamcity.runAs.loggingLevel", "off")
+        }
+        update<MavenBuildStep>(1) {
+            param("teamcity.runAs.windowsIntegrityLlevel", "auto")
+            param("teamcity.runAs.loggingLevel", "off")
+        }
+    }
+
+    expectDisabledSettings()
+    updateDisabledSettings("RUNNER_1")
 }
